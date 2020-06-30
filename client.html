@@ -1,123 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/icon-font.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>CRYPERS | HOME</title>
-    </head>
-    <body class="client">
-            <div class="navigation">
-                <input type="checkbox" id="navi-toggle" class="navigation__check">
-                <label for="navi-toggle" class="navigation__button">
-                    <div class="navigation__icon">&nbsp;</div>
-                </label>
-                <div class="navigation__background">&nbsp;</div>
-                <nav class="navigation__nav">
-                    <ul class="navigation__list">
-                        <li class="navigation__items"><a href="../index.html#home" class="navigation__link" onclick="changeclass()">Home</a></li>
-                        <li class="navigation__items"><a href="../index.html#carrers" class="navigation__link" onclick="changeclass()">Carrers</a></li>
-                        <li class="navigation__items"><a href="../index.html#about" class="navigation__link" onclick="changeclass()">About US</a></li>
-                        <li class="navigation__items"><a href="intern.html" class="navigation__link" onclick="changeclass()">Internship</a></li>
-                        <li class="navigation__items"><a href="../index.html#contact" class="navigation__link" onclick="changeclass()">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
-    
-           
-                    <div class="header__logo-header">
-                        <img src="img/logo-black.png" alt="Logo" class="header__logo">
-                    </div>
-                    <!-- <div class="u-text-center u-margin-top-large u-margin-bottom-large">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/icon-font.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>CRYPERS | HOME</title>
+	</head>
+	<body class="client">
+		<div class="navigation">
+			<input type="checkbox" id="navi-toggle" class="navigation__check" />
+			<label for="navi-toggle" class="navigation__button">
+				<div class="navigation__icon">&nbsp;</div>
+			</label>
+			<div class="navigation__background">&nbsp;</div>
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__items">
+						<a
+							href="../crypers/index.html#home"
+							class="navigation__link"
+							onclick="changeclass()"
+							>Home</a
+						>
+					</li>
+					<li class="navigation__items">
+						<a
+							href="../crypers/index.html#carrers"
+							class="navigation__link"
+							onclick="changeclass()"
+							>Carrers</a
+						>
+					</li>
+					<li class="navigation__items">
+						<a
+							href="../crypers/index.html#about"
+							class="navigation__link"
+							onclick="changeclass()"
+							>About US</a
+						>
+					</li>
+					<li class="navigation__items">
+						<a href="intern.html" class="navigation__link" onclick="changeclass()"
+							>Internship</a
+						>
+					</li>
+					<li class="navigation__items">
+						<a
+							href="../crypers/index.html#contact"
+							class="navigation__link"
+							onclick="changeclass()"
+							>Contact us</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="header__logo-header">
+			<img src="img/logo-black.png" alt="Logo" class="header__logo" />
+		</div>
+		<!-- <div class="u-text-center u-margin-top-large u-margin-bottom-large">
                             <h2 class="heading-secondary-black">
                                 Our Clients Feedback
                             </h2>
                         </div> -->
-                        <section class="section-stories">
-                            <div class="bg-video">
-                                <video class="bg-video__content" autoplay muted loop>
-                                    <source src="img/Travaho/Travaho.mp4" type="video/mp4">
-                                    <source src="img/Travaho/Travaho.webm" type="video/webm">
-                                    Your browser is not supported!
-                                </video>
-                            </div>
-            
-                            <div class="u-text-center u-margin-bottom-large">
-                                <h2 class="heading-secondary-black">
-                                    Our clients feedback
-                                </h2>
-                            </div>
-            
-                            <div class="row">
-                                <div class="story">
-                                    <figure class="story__shape">
-                                        <img src="img/code.png" alt="Person on a tour" class="story__img">
-                                        <figcaption class="story__caption">Vishalini</figcaption>
-                                    </figure>
-                                    <div class="story__text">
-                                        <h3 class="heading-tertiary u-margin-bottom-small">I had the best training here.</h3>
-                                        <p>
-                                           I took the course on JavaScript for the duration of about 5 weeks.I was provided with good
-                                           materials and daily assignments which were very useful to learn things easily.
-                                           <br>
-                                           Thankyou Team CRYPERS.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="row">
-                                <div class="story">
-                                    <figure class="story__shape">
-                                        <img src="img/code.png" alt="Person on a tour" class="story__img">
-                                        <figcaption class="story__caption">Sruthi</figcaption>
-                                    </figure>
-                                    <div class="story__text">
-                                        <h3 class="heading-tertiary u-margin-bottom-small">WOW! My learning is completely different now!</h3>
-                                        <p>
-                                            Java was the course i took .They guided me througout the entire course and was
-                                            able to clarify my doubts when i had it was fun and provided me with easy to learn.
-                                            "IT'S A DIFFERENT LEARNING EXPERIENCE!!"
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+		<section class="section-stories">
+			<div class="bg-video">
+				<video class="bg-video__content" autoplay muted loop>
+					<source src="img/Travaho/Travaho.mp4" type="video/mp4" />
+					<source src="img/Travaho/Travaho.webm" type="video/webm" />
+					Your browser is not supported!
+				</video>
+			</div>
 
-                            <div class="row">
-                                    <div class="story">
-                                        <figure class="story__shape">
-                                            <img src="img/code.png" alt="Person on a tour" class="story__img">
-                                            <figcaption class="story__caption">Vidhya</figcaption>
-                                        </figure>
-                                        <div class="story__text">
-                                            <h3 class="heading-tertiary u-margin-bottom-small">Iam clear with my domain.it's awesome!</h3>
-                                            <p>
-                                                They giuded me in a different manner by providing good materials and learning resources.
-                                                their service is upto 24/7 this help me to learn and ask queries at any time.
-                                                Doubts are clarified in a good manner.
-                                                "THANKYOU TEAM "
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-            
-                            <div class="u-text-center u-margin-top-large">
-                                <a href="#" class="btn-text">Read all stories &rarr;</a>
-                            </div>
-                        </section>
+			<div class="u-text-center u-margin-bottom-large">
+				<h2 class="heading-secondary-black">
+					Our clients feedback
+				</h2>
+			</div>
 
+			<div class="row">
+				<div class="story">
+					<figure class="story__shape">
+						<img src="img/code.png" alt="Person on a tour" class="story__img" />
+						<figcaption class="story__caption">Vishalini</figcaption>
+					</figure>
+					<div class="story__text">
+						<h3 class="heading-tertiary u-margin-bottom-small">
+							I had the best training here.
+						</h3>
+						<p>
+							I took the course on JavaScript for the duration of about 5 weeks.I was
+							provided with good materials and daily assignments which were very useful
+							to learn things easily.
+							<br />
+							Thankyou Team CRYPERS.
+						</p>
+					</div>
+				</div>
+			</div>
 
-                        <script>
-                                function changeclass(){
-                                    var check = document.getElementsByClassName("navigation__check");
-                                    check[0].checked = false;
-                 
-                                }
-                            </script>
-    </body>
-    </html>
+			<div class="row">
+				<div class="story">
+					<figure class="story__shape">
+						<img src="img/code.png" alt="Person on a tour" class="story__img" />
+						<figcaption class="story__caption">Sruthi</figcaption>
+					</figure>
+					<div class="story__text">
+						<h3 class="heading-tertiary u-margin-bottom-small">
+							WOW! My learning is completely different now!
+						</h3>
+						<p>
+							Java was the course i took .They guided me througout the entire course
+							and was able to clarify my doubts when i had it was fun and provided me
+							with easy to learn. "IT'S A DIFFERENT LEARNING EXPERIENCE!!"
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="story">
+					<figure class="story__shape">
+						<img src="img/code.png" alt="Person on a tour" class="story__img" />
+						<figcaption class="story__caption">Vidhya</figcaption>
+					</figure>
+					<div class="story__text">
+						<h3 class="heading-tertiary u-margin-bottom-small">
+							Iam clear with my domain.it's awesome!
+						</h3>
+						<p>
+							They giuded me in a different manner by providing good materials and
+							learning resources. their service is upto 24/7 this help me to learn and
+							ask queries at any time. Doubts are clarified in a good manner. "THANKYOU
+							TEAM "
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="u-text-center u-margin-top-large">
+				<a href="#" class="btn-text">Read all stories &rarr;</a>
+			</div>
+		</section>
+
+		<script>
+			function changeclass() {
+				var check = document.getElementsByClassName('navigation__check');
+				check[0].checked = false;
+			}
+		</script>
+	</body>
+</html>

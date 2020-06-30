@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>CRYPERS | HOME</title>
+    </head>
+    <body data-hijacking="on" data-animation="opacity">
+        <div class="navigation">
+            <input type="checkbox" id="navi-toggle" class="navigation__check">
+            <label for="navi-toggle" class="navigation__button">
+                <div class="navigation__icon">&nbsp;</div>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__items"><a href="#home" class="navigation__link" onclick="changeclass()">Home</a></li>
+                    <li class="navigation__items"><a href="#carrers" class="navigation__link" onclick="changeclass()">Carrers</a></li>
+                    <li class="navigation__items"><a href="#about" class="navigation__link" onclick="changeclass()">About US</a></li>
+                    <li class="navigation__items"><a href="intern.html" class="navigation__link" onclick="changeclass()">Internship</a></li>
+                    <li class="navigation__items"><a href="#contact" class="navigation__link" onclick="changeclass()">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header" id="home">
+            <div class="video-bg">
+                <video class="video-bg__content" autoplay muted loop>
+                    <source src="img/Travaho/Travaho.mp4" type="video/mp4">
+                    <source src="img/Travaho/Travaho.webm" type="video/webm">
+                </video>
+            </div>
+            <div>
+                <div class="header__logo-header">
+                    <img src="img/crypersbg.png" alt="Logo" class="header__logo">
+                </div>
+                <div class="header__text-box">
+                    <h1 class="name-header">
+                        <span class="name-header--main">Cryper<span style="letter-spacing:0">s</span></span>
+                        <span class="name-header--sub">The Producers</span>  <!--Ferret out your destination-->
+                    </h1>
+                    <a href="#carrers" class="btn btn--white">Explore More...</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section-about" id="carrers">
+                <div class="u-text-center u-margin-bottom-medium">
+                    <h2 class="heading-secondary-white">
+                        Exciting Things to learn
+                    </h2>
+                </div>
+                <!-- 1st GRID -->
+                <div class="grid" style="background-color:black;">
+                    <div class="grid__item" data-aos="zoom-out-right" data-aos-duration="2000">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/pro-2.png" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item--center">
+                        <div class="content u-margin-left-small" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                                ever felt being down
+                            </h3>
+                            <p class="paragraph">
+                                Exploring your mind with new things and ideas.<br>
+                                We provide you with essential course materials
+                                ,challenging assignments to equip you more with logical thinking.<br>
+                                Intact guidance will be provided for all the individuals who have enrolled in course for their best progress.
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Learn to think and learn to apply in real time.
+                            </h3>
+                            <p class="paragraph">
+                                Code with fun and ease.
+                            </p>
+                            <a href="course.html" class="btn-text-white">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 2nd GRID -->
+
+                <div class="grid1 comp">
+                    <div class="grid__item grid__item--center" style="background:#fff">
+                        <div class="content u-margin-left-small" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                                Capture the moments
+                            </h3>
+                            <p class="paragraph">
+                            The fullfillment and remembrance of an ocasion lies within capturing the moments<br>
+                            We provide you with taking photographs for several instances for cherishing with memories.<br>
+                            The duration and the way to portray the photos wil be according your needs as you likely wish for it.   
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                light up your life
+                            </h3>
+                            <p class="paragraph">
+                                Embrance your ocassions with best photographers and potography!.
+                            </p>
+                            <a href="capture.html" class="btn-text-black">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/photo-2.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2nd GRID Mobile-->
+                <div class="grid1 mob">
+                    
+                    <div class="grid__item">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/photo-2.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                <div class="grid__item grid__item--center" style="background:#fff">
+                    <div class="content u-margin-left-small" data-aos="zoom-in" data-aos-duration="2000">
+                        <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                            Capture the moments
+                        </h3>
+                        <p class="paragraph">
+                        The fullfillment and remembrance of an ocasion lies within capturing the moments<br>
+                        We provide you with taking photographs for several instances for cherishing with memories.<br>
+                        The duration and the way to portray the photos wil be according your needs as you likely wish for it.   
+                        </p>
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            light up your life
+                        </h3>
+                        <p class="paragraph">
+                            Embrance your ocassions with best photographers and potography!.
+                        </p>
+                        <a href="" class="btn-text-black">Learn more &rarr;</a>
+                    </div>
+                </div>
+            </div>
+                <!-- 3rd GRID -->
+                <div class="grid" style="background-color:black;">
+                    <div class="grid__item">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/events.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item--center">
+                        <div class="content u-margin-left-small" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                                Upcoming events
+                            </h3>
+                            <p class="paragraph">
+                                Crypers is the land we are going to sow you as seeds and train you as trees in whatever field you  supossed to be.
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                light up your life
+                            </h3>
+                            <p class="paragraph">
+                                No one is listening to your voice until you reach success.we are here to help you from our trainers.
+                            </p>
+                            <a href="event.html" class="btn-text-white">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th GRID -->
+                <div class="grid1 comp " style="background-color:#fff;">
+                    <div class="grid__item grid__item--center">
+                        <div class="content u-margin-left-small" data-aos="zoom-in" data-aos-duration="2000">
+                            <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                                The company domain.
+                            </h3>
+                            <p class="paragraph">
+                                Converting your thoughts into design to create idolize logos.<br><br>
+                                Shoot up your idea and likes to present your brand and we design to reciprocate the same to you.<br>
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                            Think and choose the best.
+                            </h3>
+                            <p class="paragraph">
+                                We provide you with stylish and best trademark for increasing your branding.
+                            </p>
+                            <a href="logo.html" class="btn-text-black">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/avr-100.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--4th GRID mob-->
+                <div class="grid1 mob" style="background-color:#fff;">
+                    
+                    <div class="grid__item">
+                        <div class="content">
+                            <div class="composition">
+                                <img src="img/avr-100.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item--center">
+                        <div class="content u-margin-left-small" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <h3 class="heading-tertiary sec2p u-margin-bottom-small">
+                                The company domain.
+                            </h3>
+                            <p class="paragraph">
+                                Converting your thoughts into design to create idolize logos.<br><br>
+                                Shoot up your idea and likes to present your brand and we design to reciprocate the same to you.<br>
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                            Think and choose the best.
+                            </h3>
+                            <p class="paragraph">
+                                We provide you with stylish and best trademark for increasing your branding.
+                            </p>
+                            <a href="logo.html" class="btn-text-black">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-features " id="about">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <i class="feature-box__icon icon-basic-cup"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Achievements</h3>
+                            <p class="feature-box__text">
+                               "Potential is not an endpoint but a capacity to grow and learn."
+                               we make you to acheive like us.
+                            </p>
+                            <div class="u-text-center u-margin-top-small">
+                                <a href="achievements.html" class="btn btn--gradient__fbox"><b>Explore &rarr;</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box" data-aos="zoom-out-down" data-aos-duration="2000">
+                            <i class="feature-box__icon icon-basic-clessidre"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Featured works</h3>
+                            <p class="feature-box__text">
+                                All featured works on Behance and galleries are hanpicked by our curatorial team 
+                            </p>
+                            <div class="u-text-center u-margin-top-small">
+                                <a href="featuredworks.html" class="btn btn--gradient__fbox"><b>Explore &rarr;</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box" data-aos="zoom-out-up" data-aos-duration="2000">
+                            <i class="feature-box__icon icon-basic-message"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Clients</h3>
+                            <p class="feature-box__text">
+                               People's thought on us .<br>Click here to explore what the world think about us.
+                               our beloved Clients...
+                            </p>
+                            <div class="u-text-center u-margin-top-small">
+                                <a href="client.html" class="btn btn--gradient__fbox"><b>Explore &rarr;</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box" data-aos="zoom-out-right" data-aos-duration="2000">
+                            <i class="feature-box__icon icon-basic-link"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Internship</h3>
+                            <p class="feature-box__text">
+                                We provide you with internship on the specific domains you are interested in.Feel free to explore.   
+                            </p>
+                            <div class="u-text-center u-margin-top-small">
+                                <a href="intern.html" class="btn btn--gradient__fbox"><b>Explore &rarr;</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact " id="contact">
+                <div class="row">
+                    <div class="book" data-aos="zoom-out" data-aos-duration="2000">
+                        <div class="book__form" data-aos="zoom-in" data-aos-duration="2000">
+                            <form action="https://crypersmailservice.herokuapp.com/upload" class="form" method="POST" 
+                            enctype="multipart/form-data">
+                                <div class=" u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        Contact us
+                                    </h2>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" name="name" required>
+                                    <label for="name" class="form__label"> Full Name </label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email adress" id="email" name="email" required>
+                                    <label for="email" class="form__label"> Email address </label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="message" id="message" name="message" required>
+                                    <label for="message" class="form__label"> Message </label>
+                                </div>
+                                <div class="form__group u-margin-bottom-medium">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="course">
+                                        <label for="small" class="form__radio-label">
+                                        <span class="form__radio-button"></span>Course </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="large" name="project">
+                                        <label for="large" class="form__radio-label">
+                                        <span class="form__radio-button"></span> Project </label>
+                                    </div>
+                                </div>
+                                <div class="form__group">
+                                    <button class="btn btn--cyan" value="submit" type="submit"> Next Step&rarr; </button> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo-box" data-aos="zoom-in" data-aos-duration="2000">
+
+                <picture class="footer__logo">
+                    <!-- <source srcset="img/crypersbg.png, img/crypersbg.png"
+                            media="(max-width: 37.5em)"> -->
+                    <img class="footer__img" alt="Full logo" src="img/crypersbg.png">
+                </picture>   
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation" data-aos="zoom-out-right" data-aos-duration="2000">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#home" class="footer__link">Home</a></li>
+                            <li class="footer__item"><a href="#carrers" class="footer__link">Carrers</a></li>
+                            <li class="footer__item"><a href="#about" class="footer__link">About Us</a></li>
+                            <li class="footer__item"><a href="intern.html" class="footer__link">Internship</a></li>
+                            <li class="footer__item"><a href="#contact" class="footer__link">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2" >
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Crypers Web Development Team</a>.
+                        <br>Copyright &copy; by CRYPERS. 
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+
+            <script>
+                function changeclass(){
+                    var check = document.getElementsByClassName("navigation__check");
+                    check[0].checked = false;
+                }
+            </script>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+    </body>
+</html>
